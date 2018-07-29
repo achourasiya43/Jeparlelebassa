@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "617972611069",
+    "firebase_url": "https://je-parele-le-bassa.firebaseio.com",
+    "project_id": "je-parele-le-bassa",
+    "storage_bucket": "je-parele-le-bassa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617972611069:android:fb6fd7c7c9e83caa",
+        "android_client_info": {
+          "package_name": "com.mindiii.jeparlelebassa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617972611069-b9ill9k2p8cll6eaqv8rmo3p4n6i6r6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRwNwnXKCxyNAEXxxVkEfzMAOoGfl7oKU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

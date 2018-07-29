@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_education"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mindiii.jeparlelebassa.EducationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="#a34d12">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/gradient_color">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="@dimen/_23sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:src="@drawable/back_icon_white"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/_3sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/education"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:id="@+id/iv_edit"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/logo"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_5sdp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_view_education">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/tv_no_lesson_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:text="@string/no_lesson_found"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            android:visibility="gone"/>
+
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar_lesson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/my_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:foregroundGravity="bottom">
+
+
+        </android.support.design.widget.CoordinatorLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

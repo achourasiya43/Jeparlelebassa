@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mindiii.jeparlelebassa.LessonActivity">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <TextView
+            android:id="@+id/tv_quesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q."
+            android:gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_14sdp"/>
+        <TextView
+            android:id="@+id/tv_quesion_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="@dimen/_14sdp"
+            android:layout_toRightOf="@+id/tv_quesion"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_qwesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d;"
+            android:layout_toRightOf="@id/tv_quesion_count"
+            android:gravity="center|top"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:textSize="@dimen/_14sdp"/>
+
+    </RelativeLayout>
+
+        <View
+            android:layout_below="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/darker_gray" />
+
+        <RelativeLayout
+            android:layout_below="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:id="@+id/relativeSecandLayout"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/tv_ans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ans."
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/_14sdp" />
+
+            <EditText
+                android:id="@+id/ed_answer"
+                android:layout_below="@+id/tv_ans"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_130sdp"
+                android:hint="write your answer..."
+                android:gravity="top"
+                android:padding="@dimen/_5sdp"
+                android:background="@drawable/rectangular_border" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/radioGroup"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayoutSelecteAns"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer 1"
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/radioButton1"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:gravity="center|left"
+            android:textColor="@color/darker_gray"
+            android:textSize="@dimen/_12sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorPrimaryDark"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer 2"
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/radioButton2"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:gravity="center|left"
+            android:textColor="@color/darker_gray"
+            android:textSize="@dimen/_12sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorPrimaryDark"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer 3"
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/radioButton3"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:gravity="center|left"
+            android:textColor="@color/darker_gray"
+            android:textSize="@dimen/_12sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorPrimaryDark"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Answer 4"
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/radioButton4"
+            android:layout_gravity="center_horizontal"
+            android:checked="false"
+            android:gravity="center|left"
+            android:textColor="@color/darker_gray"
+            android:textSize="@dimen/_12sdp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/colorPrimaryDark"/>
+    </RadioGroup>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_30sdp">
+
+        <RelativeLayout
+            android:id="@+id/ly_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+            <ImageButton
+                android:id="@+id/iv_submit"
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/oval_shape"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="@string/submit"
+                android:gravity="center"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/ly_submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/tv_skip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="@string/skip"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_show_score"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="@string/lession_complete_show_score"
+                android:textSize="@dimen/_12sdp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:visibility="gone"/>
+        </RelativeLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

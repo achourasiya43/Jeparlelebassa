@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splasg_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_40sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/logo"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_num_of_qwestion"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/total_questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:text="@string/total_score_of_this_lesson"
+            android:textSize="@dimen/_14sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/star_icon_profile"/>
+        <TextView
+            android:id="@+id/tv_lesson_score1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:text="250"
+            android:textSize="@dimen/_14sdp"/>
+
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="bottom"
+            android:layout_marginTop="@dimen/_30sdp">
+            <ImageButton
+                android:id="@+id/iv_done"
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/oval_shape"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="@string/done"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12sdp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:padding="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/my_youtube_channel"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

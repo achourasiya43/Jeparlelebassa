@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_250sdp"
+    android:orientation="vertical"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corner"
+        android:layout_margin="@dimen/_2sdp">
+
+
+    <RelativeLayout
+        android:id="@+id/ty_select_language"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_youe_languge"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@android:color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:background="@color/darker_gray"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_choose_languge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_below="@+id/ty_select_language">
+
+        <ImageView
+            android:id="@+id/iv_english_bassa"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:src="@drawable/circle_images2"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_35sdp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_franch_bassa"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:src="@drawable/circle_images"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_35sdp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/english_to_bassa"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@+id/iv_english_bassa"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/franch_to_bassa"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_below="@+id/iv_english_bassa"/>
+    </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/ly_choose_languge"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <TextView
+                android:id="@+id/iv_btn_learning"
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="@string/start_learning"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/oval_shape"
+                android:padding="@dimen/_6sdp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

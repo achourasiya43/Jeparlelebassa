@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Je parle le bassa 2.0</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">1787163241612262</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="field_cant_be_empty">Le champs ne peut être vide</string>
+    <string name="enter_valid_userName">Entrez un nom d\'utilisateur valide</string>
+    <string name="Atleast_4_characters_required">Au moins 4 caractères requis</string>
+    <string name="enter_valid_email">Entrez une adresse email</string>
+    <string name="select_youe_languge">Sélectionnez votre langue</string>
+    <string name="english_to_bassa">Anglais au Bassa</string>
+    <string name="franch_to_bassa">Français au Bassa</string>
+    <string name="start_learning">Commencer à apprendre</string>
+    <string name="no_internet_found1">Pas de connexion internet, \nassurez-vous d\'être connecté \net réessayer</string>
+
+    <string name="lesson">Leçon</string>
+    <string name="logout">Déconnexion</string>
+    <string name="submit">Soumettre</string>
+    <string name="skip">Passer</string>
+    <string name="lession_complete_show_score"> Leçon terminé,\nmontrer le score</string>
+
+    <string name="login">Identification</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="truble_in_login">Problème d\'identification?</string>
+    <string name="login_with_facebook">Se connecter avec Facebook</string>
+    <string name="dont_have_account">Pas de compte ? S\'inscrire</string>
+    <string name="full_name">Nom complet</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+
+
+    <string name="home">Accueil</string>
+    <string name="profile">Profil</string>
+    <string name="language">Langue</string>
+    <string name="education">Éducation</string>
+    <string name="answer">Réponse</string>
+    <string name="done">Fin</string>
+    <string name="total_score_of_this_lesson">Score total de cette leçon</string>
+    <string name="total_num_of_qwestion">Nombre total de questions</string>
+    <string name="select_your_language">Sélectionnez votre langue</string>
+
+    <string name="somthing_went_wrong">Une erreur s\'est produite... </string>
+    <string name="please_check_internet_connection">Merci de vérifier votre connexion internet</string>
+    <string name="please_select_answer_first">Merci de choisir une réponse en premier</string>
+    <string name="please_input_answer_first">Merci d\'entrer une réponse en premier</string>
+    <string name="you_already_submitted_answer">Vous avez déjà soumis une réponse</string>
+
+    <string name="select_profile_picture">Selectionnez une photo de profil</string>
+    <string name="enter_full_name">Entrez votre nom complet</string>
+    <string name="user_already_registered">Utilisateur déjà enregistré</string>
+    <string name="loading">Chargement...</string>
+
+    <string name="enter_email_address">Entrez l\'adresse e-mail</string>
+    <string name="enter_password">Entrer le mot de passe</string>
+    <string name="no_lesson_found">Aucune leçon trouvée</string>
+    <string name="no_category_found">Aucune catégorie trouvée</string>
+    <string name="click_again_to_exit">Cliquez de nouveau pour quitter</string>
+
+    <string name="error_in_facebook_login">Erreur dans Facebook Login</string>
+    <string name="facebook_login_cancelled">Connexion Facebook annulée</string>
+    <string name="my_youtube_channel">Connectez-vous à notre chaîne YouTube pour approfondir votre prononciation : Je parle le bassa 2.0</string>
+
+</resources>
+
+<!--
+<resources>
+    <string name="app_name">Je parle le bassa 2.0</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebook_app_id">1787163241612262</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="field_cant_be_empty">Field can\'t be empty</string>
+    <string name="enter_valid_userName">enter valid userName</string>
+    <string name="Atleast_4_characters_required">Atleast 4 characters required</string>
+    <string name="enter_valid_email">Enter valid email address</string>
+    <string name="select_youe_languge">Select your Language</string>
+    <string name="english_to_bassa">English To Bassa</string>
+    <string name="franch_to_bassa">French To Bassa</string>
+    <string name="start_learning">Start Learning</string>
+    <string name="no_internet_found1">No Internet connection.Make\nSure Wi-Fi or Cellular data is\nturned on,then try again.</string>
+
+    <string name="lesson">Lesson</string>
+    <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="skip">Skip</string>
+    <string name="lession_complete_show_score">Lesson completed\nshow score</string>
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="truble_in_login">Trouble in Login ?</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="dont_have_account">Don\'t have an account ? sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password</string>
+
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="language">Language</string>
+    <string name="education">Education</string>
+    <string name="answer">Answer</string>
+    <string name="done">Done</string>
+    <string name="total_score_of_this_lesson">Total score of this lesson </string>
+    <string name="total_num_of_qwestion">Total number of Questions</string>
+    <string name="select_your_language">Select your Language </string>
+
+    <string name="somthing_went_wrong">Something went wrong... </string>
+    <string name="please_check_internet_connection">Please Check internet connection</string>
+    <string name="please_select_answer_first">Please select answer first</string>
+    <string name="please_input_answer_first">Please input answer first</string>
+    <string name="you_already_submitted_answer">You already submitted answer</string>
+
+    <string name="select_profile_picture">Select profile picture</string>
+    <string name="enter_full_name">Enter full name</string>
+    <string name="user_already_registered">User already registered</string>
+    <string name="loading">Loading...</string>
+
+    <string name="enter_email_address">Enter email address</string>
+    <string name="enter_password">Enter password</string>
+    <string name="no_lesson_found">No Lesson Found</string>
+    <string name="no_category_found">No category found</string>
+    <string name="click_again_to_exit">Click again to exit</string>
+
+     <string name="error_in_facebook_login">Error in Facebook login</string>
+    <string name="facebook_login_cancelled">Facebook login cancel</string>
+</resources>
+-->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_190sdp"
+    android:background="#ab6637"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/profileimg"
+            android:layout_centerInParent="true"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="@dimen/_1sdp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_image">
+            <TextView
+                android:id="@+id/nav_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="Anil chourasiya"
+                android:maxLines="1"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:gravity="center|top"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <ImageView
+                    android:id="@+id/user_star"
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:src="@drawable/star_icon"
+                    android:layout_gravity="right|center" />
+                <TextView
+                    android:id="@+id/tv_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:maxLines="1"
+                    android:text="250"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginLeft="@dimen/_7sdp"
+                    android:textSize="@dimen/_12sdp" />
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

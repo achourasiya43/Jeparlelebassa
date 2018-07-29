@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:background="#a34d12">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/gradient_color">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="@dimen/_23sdp"
+                android:layout_height="@dimen/_23sdp"
+                android:src="@drawable/back_icon_white"
+                android:padding="@dimen/_3sdp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+
+            <TextView
+                android:id="@+id/tv_lesson_serial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesson 1"
+                android:layout_toRightOf="@+id/tv_lesson"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:id="@+id/iv_speak"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/speak_icon"
+                android:padding="@dimen/_9sdp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/_5sdp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/my_snackbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:foregroundGravity="bottom">
+        </android.support.design.widget.CoordinatorLayout>
+
+        <TextView
+            android:id="@+id/tv_no_question_found"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No lesson found"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:visibility="gone"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
